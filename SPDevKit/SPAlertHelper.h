@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface SPAlertHelper : NSObject
-
++(SPAlertHelper *)shareInstance;
+-(void)setTitle:(NSString *)title;
+-(void)showSimpleAlertOn:(UIViewController *)viewC;
 @end
