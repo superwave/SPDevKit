@@ -10,6 +10,8 @@
 		113E67E81B818FE00029C0A0 /* SPDevKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E67E71B818FE00029C0A0 /* SPDevKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113E67EE1B818FE00029C0A0 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113E67E21B818FE00029C0A0 /* SPDevKit.framework */; };
 		113E67F51B818FE00029C0A0 /* SPDevKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67F41B818FE00029C0A0 /* SPDevKitTests.m */; };
+		113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		113E67ED1B818FE00029C0A0 /* SPDevKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPDevKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		113E67F31B818FE00029C0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113E67F41B818FE00029C0A0 /* SPDevKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDevKitTests.m; sourceTree = "<group>"; };
+		113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlertHelper.h; sourceTree = "<group>"; };
+		113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlertHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				113E67E71B818FE00029C0A0 /* SPDevKit.h */,
 				113E67E51B818FE00029C0A0 /* Supporting Files */,
+				113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */,
+				113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */,
 			);
 			path = SPDevKit;
 			sourceTree = "<group>";
@@ -109,6 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */,
 				113E67E81B818FE00029C0A0 /* SPDevKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +337,7 @@
 				INFOPLIST_FILE = SPDevKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -344,6 +353,7 @@
 				INFOPLIST_FILE = SPDevKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
