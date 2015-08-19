@@ -11,6 +11,7 @@
 
 @interface SPAlertHelper()
 @property NSString *confirmBtnTitle;
+@property NSString *cancelBtnTitle;
 @end
 
 @implementation SPAlertHelper
@@ -23,17 +24,39 @@
     });
     return sharedInstance;
 }
--(void)setTitle:(NSString *)title
+
+-(void)setLocalizedConfirmButtonTitle:(NSString *)title
 {
     self.confirmBtnTitle = title;
 }
--(void)showSimpleAlertOn:(UIViewController *)viewC;
+-(void)setLocalizedCancelButtonTitle:(NSString *)title
 {
-    UIAlertController *alertC = [UIAlertController alertControllerWithTitle:self.confirmBtnTitle message:self.confirmBtnTitle preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *act = [UIAlertAction actionWithTitle:self.confirmBtnTitle style:UIAlertActionStyleDefault handler:nil];
+    self.cancelBtnTitle = title;
+}
+-(void)showSimpleAlertWithTitle:(NSString *)title message:(NSString *)message handler:actionBlock handler showOn:(UIViewController *)viewController
+{
+    
+    UIAlertController *alertC = [UIAlertController alertControllerWithTitle:title
+                                                                    message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *act = [UIAlertAction actionWithTitle:self.confirmBtnTitle?:@"ok"                                                  style:UIAlertActionStyleDefault handler:handler];
     [alertC addAction:act];
     
-    [viewC presentViewController:alertC animated:YES completion:nil];
+    [viewController presentViewController:alertC animated:YES completion:nil];
+}
+-(void)showDestructAlertWithTitle:(NSString *)title message:(NSString *)message cancelHandler:actionBlock cancelHandler destructButtonTitle:(NSString *)destructTitle destructHandler:actionBlock destructHandler showOn:(UIViewController *)viewContorller
+{
+    UIAlertController *alertC = [UIAlertController alertControllerWithTitle:title
+                                                                    message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *act_confirm = [UIAlertAction actionWithTitle:destructTitle
+                                                          style:UIAlertActionStyleDestructive handler:destructHandler];
     
+    UIAlertAction *act_cancel = [UIAlertAction actionWithTitle:self.cancelBtnTitle?:@"cancel"
+                                                         style:UIAlertActionStyleDefault
+                                                       handler:cancelHandler];
+    
+    [alertC addAction:act_confirm];
+    [alertC addAction:act_cancel];
+    
+    [viewContorller presentViewController:alertC animated:YES completion:nil];
 }
 @end
