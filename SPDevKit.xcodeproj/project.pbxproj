@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		110BEE931BB3B7D0000C8843 /* Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 110BEE911BB3B7D0000C8843 /* Extensions.m */; settings = {ASSET_TAGS = (); }; };
+		110BEE941BB3B7D0000C8843 /* Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 110BEE921BB3B7D0000C8843 /* Extensions.h */; settings = {ASSET_TAGS = (); }; };
 		113E67E81B818FE00029C0A0 /* SPDevKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E67E71B818FE00029C0A0 /* SPDevKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113E67EE1B818FE00029C0A0 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113E67E21B818FE00029C0A0 /* SPDevKit.framework */; };
 		113E67F51B818FE00029C0A0 /* SPDevKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67F41B818FE00029C0A0 /* SPDevKitTests.m */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110BEE911BB3B7D0000C8843 /* Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extensions.m; sourceTree = "<group>"; };
+		110BEE921BB3B7D0000C8843 /* Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
 		113E67E21B818FE00029C0A0 /* SPDevKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPDevKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		113E67E61B818FE00029C0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113E67E71B818FE00029C0A0 /* SPDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDevKit.h; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */,
 				11E8D98E1B8436FC00798F3D /* DebugMacros.h */,
 				11E8D98F1B8436FC00798F3D /* DebugMacros.m */,
+				110BEE921BB3B7D0000C8843 /* Extensions.h */,
+				110BEE911BB3B7D0000C8843 /* Extensions.m */,
 				113E67E51B818FE00029C0A0 /* Supporting Files */,
 			);
 			path = SPDevKit;
@@ -137,6 +143,7 @@
 			files = (
 				113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */,
 				11E8D9901B8436FC00798F3D /* DebugMacros.h in Headers */,
+				110BEE941BB3B7D0000C8843 /* Extensions.h in Headers */,
 				113E67E81B818FE00029C0A0 /* SPDevKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110BEE931BB3B7D0000C8843 /* Extensions.m in Sources */,
 				11E8D9911B8436FC00798F3D /* DebugMacros.m in Sources */,
 				113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */,
 			);
