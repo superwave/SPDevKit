@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SPAlertHelper.h"
+#import <SPDevKit/SPAlertHelper.h>
+#import <SPDevKit/DebugMacros.h>
+#import <SPDevKit/Extensions.h>
+
 //! Project version number for SPDevKit.
 FOUNDATION_EXPORT double SPDevKitVersionNumber;
 
