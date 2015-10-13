@@ -38,6 +38,12 @@
 #define ShortLogCyan(fmt, ...) ShortLog(XCFGTXT(fmt,@"0,220,220"), ##__VA_ARGS__)
 #define ShortLogBlue(fmt, ...) ShortLog(XCFGTXT(fmt,@"0,0,220"), ##__VA_ARGS__)
 
+#define NSLogGray(fmt, ...) NSLog(XCFGTXT(fmt,@"100,100,100"), ##__VA_ARGS__)
+#define NSLogYellow(fmt, ...) NSLog(XCFGTXT(fmt,@"255,255,0"), ##__VA_ARGS__)
+#define NSLogRed(fmt, ...) NSLog(XCFGTXT(fmt,@"220,0,0"), ##__VA_ARGS__)
+#define NSLogGreen(fmt, ...) NSLog(XCFGTXT(fmt,@"0,220,0"), ##__VA_ARGS__)
+#define NSLogCyan(fmt, ...) NSLog(XCFGTXT(fmt,@"0,220,220"), ##__VA_ARGS__)
+#define NSLogBlue(fmt, ...) NSLog(XCFGTXT(fmt,@"0,0,220"), ##__VA_ARGS__)
 
 @interface DebugMacros : NSObject
 
