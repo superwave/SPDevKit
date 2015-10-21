@@ -17,4 +17,5 @@
 -(void)setLocalizedCancelButtonTitle:(NSString *)title;
 -(void)showSimpleAlertWithTitle:(NSString *)title message:(NSString *)message handler:actionBlock handler showOn:(UIViewController *)viewController;
 -(void)showDestructAlertWithTitle:(NSString *)title message:(NSString *)message cancelHandler:actionBlock cancelHandler destructButtonTitle:(NSString *)destructTitle destructHandler:actionBlock destructHandler showOn:(UIViewController *)viewContorller;
+-(void)showActionList:(NSArray *)actions title:(NSString *)title message:(NSString *)message cancelHandler:actionBlock cancelHandler showOn:(UIViewController *)viewContorller;
 @end

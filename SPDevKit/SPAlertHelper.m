@@ -59,4 +59,20 @@
     
     [viewContorller presentViewController:alertC animated:YES completion:nil];
 }
+-(void)showActionList:(NSArray *)actions title:(NSString *)title message:(NSString *)message cancelHandler:actionBlock cancelHandler showOn:(UIViewController *)viewContorller{
+    UIAlertController *alertC = [UIAlertController alertControllerWithTitle:title
+                                                                    message:message preferredStyle:UIAlertControllerStyleActionSheet];
+    for(id obj in actions){
+        if([obj isKindOfClass:[UIAlertAction class]]){
+            UIAlertAction *action = (UIAlertAction *)obj;
+            [alertC addAction:action];
+        }
+    }
+
+    UIAlertAction *act_cancel = [UIAlertAction actionWithTitle:self.cancelBtnTitle?:@"cancel"
+                                                         style:UIAlertActionStyleDefault
+                                                       handler:cancelHandler];
+    [alertC addAction:act_cancel];
+    [viewContorller presentViewController:alertC animated:YES completion:nil];
+}
 @end
