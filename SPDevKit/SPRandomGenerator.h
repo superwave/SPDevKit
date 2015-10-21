@@ -14,6 +14,7 @@
 +(NSString *)randomChrWithLength:(int)len hasCapital:(BOOL)hasCapital;
 +(NSString *)randomZhWithLength:(int)len;
 
++(NSString *)generateRandomStringWithBase:(NSString *)base length:(int)len;
 +(NSString *)randomImageUrl:(int)width :(int)height;
 
 @end

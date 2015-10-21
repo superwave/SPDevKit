@@ -23,7 +23,7 @@
         base = [NSString stringWithFormat:@"%@%@",EnS,EnC];
     else
         base = EnS;
-    return [self genrateRandomStringWithBase:base length:len];
+    return [self generateRandomStringWithBase:base length:len];
 }
 +(NSString *)randomChrWithLength:(int)len hasCapital:(BOOL)hasCapital{
     NSString *base;
@@ -31,14 +31,14 @@
         base = [NSString stringWithFormat:@"%@%@%@",EnS,EnC,Num];
     else
         base = [NSString stringWithFormat:@"%@%@",EnS,Num];
-    return [self genrateRandomStringWithBase:base length:len];
+    return [self generateRandomStringWithBase:base length:len];
 }
 +(NSString *)randomZhWithLength:(int)len{
-    return [self genrateRandomStringWithBase:Chr length:len];
+    return [self generateRandomStringWithBase:Chr length:len];
 }
 
 
-+(NSString *)genrateRandomStringWithBase:(NSString *)base length:(int)len{
++(NSString *)generateRandomStringWithBase:(NSString *)base length:(int)len{
     NSMutableString *randomString = [NSMutableString stringWithCapacity: len];
     for (int i=0; i<len; i++) {
         [randomString appendFormat: @"%C", [base characterAtIndex: arc4random_uniform((int)[base length])]];
