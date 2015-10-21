@@ -11,6 +11,7 @@
 #import <SPDevKit/DebugMacros.h>
 #import <SPDevKit/Extensions.h>
 #import <SPDevKit/SPRandomGenerator.h>
+#import <SPDevKit/SPUIHelper.h>
 
 //! Project version number for SPDevKit.
 FOUNDATION_EXPORT double SPDevKitVersionNumber;
