@@ -10,6 +10,7 @@
 #import <SPDevKit/SPAlertHelper.h>
 #import <SPDevKit/DebugMacros.h>
 #import <SPDevKit/Extensions.h>
+#import <SPDevKit/SPRandomGenerator.h>
 
 //! Project version number for SPDevKit.
 FOUNDATION_EXPORT double SPDevKitVersionNumber;

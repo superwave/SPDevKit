@@ -29,6 +29,8 @@
 		113E67F51B818FE00029C0A0 /* SPDevKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67F41B818FE00029C0A0 /* SPDevKitTests.m */; };
 		113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */; };
+		1165FF201BD7702D00514BB2 /* SPRandomGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1165FF1E1BD7702D00514BB2 /* SPRandomGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1165FF211BD7702D00514BB2 /* SPRandomGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1165FF1F1BD7702D00514BB2 /* SPRandomGenerator.m */; settings = {ASSET_TAGS = (); }; };
 		11E8D9901B8436FC00798F3D /* DebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E8D98E1B8436FC00798F3D /* DebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11E8D9911B8436FC00798F3D /* DebugMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8D98F1B8436FC00798F3D /* DebugMacros.m */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		113E67F41B818FE00029C0A0 /* SPDevKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDevKitTests.m; sourceTree = "<group>"; };
 		113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlertHelper.h; sourceTree = "<group>"; wrapsLines = 1; };
 		113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlertHelper.m; sourceTree = "<group>"; };
+		1165FF1E1BD7702D00514BB2 /* SPRandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRandomGenerator.h; sourceTree = "<group>"; };
+		1165FF1F1BD7702D00514BB2 /* SPRandomGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRandomGenerator.m; sourceTree = "<group>"; };
 		11E8D98E1B8436FC00798F3D /* DebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugMacros.h; sourceTree = "<group>"; };
 		11E8D98F1B8436FC00798F3D /* DebugMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugMacros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +112,8 @@
 				113E67E71B818FE00029C0A0 /* SPDevKit.h */,
 				113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */,
 				113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */,
+				1165FF1E1BD7702D00514BB2 /* SPRandomGenerator.h */,
+				1165FF1F1BD7702D00514BB2 /* SPRandomGenerator.m */,
 				11E8D98E1B8436FC00798F3D /* DebugMacros.h */,
 				11E8D98F1B8436FC00798F3D /* DebugMacros.m */,
 				110BEE921BB3B7D0000C8843 /* Extensions.h */,
@@ -149,6 +155,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1165FF201BD7702D00514BB2 /* SPRandomGenerator.h in Headers */,
 				113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */,
 				11E8D9901B8436FC00798F3D /* DebugMacros.h in Headers */,
 				110BEE941BB3B7D0000C8843 /* Extensions.h in Headers */,
@@ -273,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				110BEE931BB3B7D0000C8843 /* Extensions.m in Sources */,
+				1165FF211BD7702D00514BB2 /* SPRandomGenerator.m in Sources */,
 				11E8D9911B8436FC00798F3D /* DebugMacros.m in Sources */,
 				113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */,
 			);
