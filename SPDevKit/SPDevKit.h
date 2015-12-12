@@ -12,6 +12,7 @@
 #import <SPDevKit/Extensions.h>
 #import <SPDevKit/SPRandomGenerator.h>
 #import <SPDevKit/SPUIHelper.h>
+#import <SPDevKit/SPTestDataHelper.h>
 
 //! Project version number for SPDevKit.
 FOUNDATION_EXPORT double SPDevKitVersionNumber;
