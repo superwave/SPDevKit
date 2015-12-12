@@ -10,5 +10,10 @@
 #import <UIKit/UIKit.h>
 @interface SPUIHelper : NSObject
 +(CGSize)screenSize;
-+(UIImage *)maskedImage:(UIImage *)image color:(UIColor *)color;
++(void)setMaskColorForButtonImage:(NSArray<UIButton *> *)buttons color:(UIColor *)color forState:(UIControlState)state;
+@end
+
+@interface UIImage(Additions)
+-(UIImage *)maskImageWithColor:(UIColor *)color;
+-(UIImage *)resizeImageToFitInSize:(CGSize)toSize;
 @end
