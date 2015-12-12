@@ -13,7 +13,7 @@
 @end
 
 @interface NSDictionary (JSONString)
--(NSString *) jsonStringWithPrettyPrint:(BOOL) prettyPrint;
+-(NSString *)jsonStringWithPrettyPrint:(BOOL)prettyPrint;
 @end
 
 @interface NSArray (JSONString)
