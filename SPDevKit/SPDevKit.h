@@ -12,6 +12,7 @@
 #import <SPDevKit/Extensions.h>
 #import <SPDevKit/SPUIHelper.h>
 #import <SPDevKit/SPTestDataHelper.h>
+#import <SPDevKit/SPTabButtonScrollView.h>
 
 //! Project version number for SPDevKit.
 FOUNDATION_EXPORT double SPDevKitVersionNumber;

@@ -33,6 +33,10 @@
 		1165FF251BD7722A00514BB2 /* SPUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1165FF231BD7722A00514BB2 /* SPUIHelper.m */; };
 		11809ADB1C1C12DD009A40D2 /* SPTestDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11809ADC1C1C12DD009A40D2 /* SPTestDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */; };
+		11B764E91C1E934D00B264B0 /* SPTabButtonScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B764E71C1E934D00B264B0 /* SPTabButtonScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11B764EA1C1E934D00B264B0 /* SPTabButtonScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B764E81C1E934D00B264B0 /* SPTabButtonScrollView.m */; };
+		11B764EC1C1E944F00B264B0 /* selected_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B764EB1C1E944F00B264B0 /* selected_h.png */; };
+		11B764F81C1E9D0D00B264B0 /* selected_h.png in Sources */ = {isa = PBXBuildFile; fileRef = 11B764EB1C1E944F00B264B0 /* selected_h.png */; };
 		11E8D9901B8436FC00798F3D /* DebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E8D98E1B8436FC00798F3D /* DebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11E8D9911B8436FC00798F3D /* DebugMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8D98F1B8436FC00798F3D /* DebugMacros.m */; };
 /* End PBXBuildFile section */
@@ -69,6 +73,9 @@
 		1165FF231BD7722A00514BB2 /* SPUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPUIHelper.m; sourceTree = "<group>"; };
 		11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTestDataHelper.h; sourceTree = "<group>"; };
 		11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTestDataHelper.m; sourceTree = "<group>"; };
+		11B764E71C1E934D00B264B0 /* SPTabButtonScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTabButtonScrollView.h; sourceTree = "<group>"; };
+		11B764E81C1E934D00B264B0 /* SPTabButtonScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTabButtonScrollView.m; sourceTree = "<group>"; };
+		11B764EB1C1E944F00B264B0 /* selected_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_h.png; sourceTree = "<group>"; };
 		11E8D98E1B8436FC00798F3D /* DebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugMacros.h; sourceTree = "<group>"; };
 		11E8D98F1B8436FC00798F3D /* DebugMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugMacros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +131,9 @@
 				11E8D98F1B8436FC00798F3D /* DebugMacros.m */,
 				110BEE921BB3B7D0000C8843 /* Extensions.h */,
 				110BEE911BB3B7D0000C8843 /* Extensions.m */,
+				11B764E71C1E934D00B264B0 /* SPTabButtonScrollView.h */,
+				11B764E81C1E934D00B264B0 /* SPTabButtonScrollView.m */,
+				11B764EB1C1E944F00B264B0 /* selected_h.png */,
 				113E67E51B818FE00029C0A0 /* Supporting Files */,
 			);
 			path = SPDevKit;
@@ -166,6 +176,7 @@
 				11809ADB1C1C12DD009A40D2 /* SPTestDataHelper.h in Headers */,
 				1165FF241BD7722A00514BB2 /* SPUIHelper.h in Headers */,
 				110BEE941BB3B7D0000C8843 /* Extensions.h in Headers */,
+				11B764E91C1E934D00B264B0 /* SPTabButtonScrollView.h in Headers */,
 				113E67E81B818FE00029C0A0 /* SPDevKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B764EC1C1E944F00B264B0 /* selected_h.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B764F81C1E9D0D00B264B0 /* selected_h.png in Sources */,
+				11B764EA1C1E934D00B264B0 /* SPTabButtonScrollView.m in Sources */,
 				110BEE931BB3B7D0000C8843 /* Extensions.m in Sources */,
 				11809ADC1C1C12DD009A40D2 /* SPTestDataHelper.m in Sources */,
 				11E8D9911B8436FC00798F3D /* DebugMacros.m in Sources */,
