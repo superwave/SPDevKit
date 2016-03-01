@@ -17,31 +17,11 @@
     [self setShowsHorizontalScrollIndicator:NO];
     [self setShowsVerticalScrollIndicator:NO];
     
-    //======
-    
-    UIView *bgView = [[UIView alloc]initWithFrame:self.frame];
-    CGRect colorFrame = CGRectMake(0,
-                                   bgView.frame.size.height * 5/6,
-                                   bgView.frame.size.width,
-                                   bgView.frame.size.height * 1/6);
-    UIView *colorBgView = [[UIView alloc]initWithFrame:colorFrame];
-    colorBgView.backgroundColor = [UIColor blackColor];
-    
-    UIGraphicsBeginImageContext(bgView.bounds.size);
-    
-    //saving Image
-    [bgView.layer renderInContext:UIGraphicsGetCurrentContext()];
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    
-    //end
-    UIGraphicsEndImageContext();
 
-    //=====//
     
     UIColor *grayColor = [UIColor colorWithWhite:0.451 alpha:1.000];
-//    UIImage *bgImage = [UIImage imageNamed:@"selected_h"];
-    UIImage *bgImage= image;
-    bgImage = [bgImage maskImageWithColor:color];
+    NSBundle *frameWorkBundle = [NSBundle bundleForClass:[self class]];
+    UIImage *bgImage = [UIImage imageNamed:@"selected_h.png" inBundle:frameWorkBundle compatibleWithTraitCollection:nil];
     
     CGFloat xAis = self.itemInset;
     CGFloat xStart = 0;
@@ -105,4 +85,7 @@
     [self setCurrentIndex:index];
     [self.SPDelegate onTapSPTabButtonScollViewAtTitle:title index:index];
 }
+
+
+
 @end
