@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPDevKit"
-  s.version      = "0.0.9"
+  s.version      = "0.0.10"
   s.summary      = "Personal dev kit"
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SPDevKit/**/*.{h}"
+  s.source_files  = "SPDevKit/**/*.{h}", "SPDevKit/framework"
   s.exclude_files = "Classes/Exclude"
 
   s.vendored_frameworks = 'SPDevKit/framework/SPDevKit.framework'
