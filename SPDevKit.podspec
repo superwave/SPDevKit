@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SPDevKit", "SPDevKit/**/*.{h}"
+  s.source_files  = "SPDevKit/**/*.{h}"
   s.exclude_files = "Classes/Exclude"
 
   s.vendored_frameworks = 'SPDevKit/framework/SPDevKit.framework'
