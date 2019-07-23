@@ -30,7 +30,6 @@
 		113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */; };
 		1165FF241BD7722A00514BB2 /* SPUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1165FF221BD7722A00514BB2 /* SPUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1165FF251BD7722A00514BB2 /* SPUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1165FF231BD7722A00514BB2 /* SPUIHelper.m */; };
 		11809ADB1C1C12DD009A40D2 /* SPTestDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11809ADC1C1C12DD009A40D2 /* SPTestDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */; };
 		118726B31C857A8700D06D2F /* SPAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 118726B11C857A8700D06D2F /* SPAlertView.h */; };
@@ -38,6 +37,8 @@
 		118726B71C857C6B00D06D2F /* UIBAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 118726B51C857C6B00D06D2F /* UIBAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		118726B81C857C6B00D06D2F /* UIBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 118726B61C857C6B00D06D2F /* UIBAlertView.m */; };
 		11E7C26C22E6B7BE006B8537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E7C26B22E6B7BE006B8537 /* UIKit.framework */; };
+		11E7C26D22E6BDDB006B8537 /* SPUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1165FF231BD7722A00514BB2 /* SPUIHelper.m */; };
+		11E7C27322E6C27D006B8537 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E7C27222E6C27D006B8537 /* SPDevKit.framework */; };
 		11E8D9901B8436FC00798F3D /* DebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E8D98E1B8436FC00798F3D /* DebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11E8D9911B8436FC00798F3D /* DebugMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8D98F1B8436FC00798F3D /* DebugMacros.m */; };
 /* End PBXBuildFile section */
@@ -79,6 +80,7 @@
 		118726B51C857C6B00D06D2F /* UIBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBAlertView.h; sourceTree = "<group>"; };
 		118726B61C857C6B00D06D2F /* UIBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBAlertView.m; sourceTree = "<group>"; };
 		11E7C26B22E6B7BE006B8537 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11E7C27222E6C27D006B8537 /* SPDevKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SPDevKit.framework; path = "Output/SPDevKit-Debug-iphoneuniversal/SPDevKit.framework"; sourceTree = SOURCE_ROOT; };
 		11E8D98E1B8436FC00798F3D /* DebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugMacros.h; sourceTree = "<group>"; };
 		11E8D98F1B8436FC00798F3D /* DebugMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugMacros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E7C27322E6C27D006B8537 /* SPDevKit.framework in Frameworks */,
 				11E7C26C22E6B7BE006B8537 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,6 +128,7 @@
 		113E67E41B818FE00029C0A0 /* SPDevKit */ = {
 			isa = PBXGroup;
 			children = (
+				11E7C27122E6C257006B8537 /* framework */,
 				113E67E71B818FE00029C0A0 /* SPDevKit.h */,
 				113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */,
 				113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */,
@@ -176,6 +180,14 @@
 				11E7C26B22E6B7BE006B8537 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11E7C27122E6C257006B8537 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				11E7C27222E6C27D006B8537 /* SPDevKit.framework */,
+			);
+			path = framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,10 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E7C26D22E6BDDB006B8537 /* SPUIHelper.m in Sources */,
 				110BEE931BB3B7D0000C8843 /* Extensions.m in Sources */,
 				11809ADC1C1C12DD009A40D2 /* SPTestDataHelper.m in Sources */,
 				11E8D9911B8436FC00798F3D /* DebugMacros.m in Sources */,
-				1165FF251BD7722A00514BB2 /* SPUIHelper.m in Sources */,
 				118726B41C857A8700D06D2F /* SPAlertView.m in Sources */,
 				118726B81C857C6B00D06D2F /* UIBAlertView.m in Sources */,
 				113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */,
@@ -464,6 +476,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SPDevKit",
+					"$(PROJECT_DIR)/Output/SPDevKit-Debug-iphoneuniversal",
 				);
 				INFOPLIST_FILE = SPDevKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -486,6 +499,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SPDevKit",
+					"$(PROJECT_DIR)/Output/SPDevKit-Debug-iphoneuniversal",
 				);
 				INFOPLIST_FILE = SPDevKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

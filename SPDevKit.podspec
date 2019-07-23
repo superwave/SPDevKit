@@ -90,8 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SPDevKit", "SPDevKit/**/*.{h,m,swift,xib}"
+  s.source_files  = "SPDevKit", "SPDevKit/**/*.{h}"
   s.exclude_files = "Classes/Exclude"
+
+  s.vendored_frameworks = 'SPDevKit/framework/SPDevKit.framework'
 
 
   s.swift_version = '4.2'
@@ -120,6 +122,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "AFNetworking"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -135,7 +138,8 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.9"
+  # s.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.9"
+  s.dependency "AFNetworking"
 
 
 end
