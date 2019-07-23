@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPDevKit"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "Personal dev kit"
 
   # This description is used to generate tags and improve search results.
@@ -135,5 +135,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.9"
+
 
 end
