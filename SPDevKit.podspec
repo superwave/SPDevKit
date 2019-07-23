@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPDevKit"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "Personal dev kit"
 
   # This description is used to generate tags and improve search results.
