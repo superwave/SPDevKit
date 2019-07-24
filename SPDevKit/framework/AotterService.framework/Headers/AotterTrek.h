@@ -34,6 +34,11 @@ typedef enum {
 
 -(BOOL)checkInitSuccess;
 
+//dev - delete when public release
+-(void)enableLoggerLevelDev;
+-(void)enableLoggerLevelDevWithXcodeColor;
+-(void)enableLoggerLevelDevDetail;
+-(void)enableLoggerLevelDevDetailWithXcodeColor;
 
 
 #pragma mark - Client user

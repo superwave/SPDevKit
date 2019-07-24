@@ -30,7 +30,8 @@
 		113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */; };
 		1165FF241BD7722A00514BB2 /* SPUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1165FF221BD7722A00514BB2 /* SPUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		116F199E22E845EA00678B50 /* AotterService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F199D22E845EA00678B50 /* AotterService.framework */; };
+		116F19A222E852A800678B50 /* AotterService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19A122E852A800678B50 /* AotterService.framework */; };
+		116F19A422E852B400678B50 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19A322E852B400678B50 /* SPDevKit.framework */; };
 		11809ADB1C1C12DD009A40D2 /* SPTestDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11809ADC1C1C12DD009A40D2 /* SPTestDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */; };
 		118726B31C857A8700D06D2F /* SPAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 118726B11C857A8700D06D2F /* SPAlertView.h */; };
@@ -39,7 +40,6 @@
 		118726B81C857C6B00D06D2F /* UIBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 118726B61C857C6B00D06D2F /* UIBAlertView.m */; };
 		11E7C26C22E6B7BE006B8537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E7C26B22E6B7BE006B8537 /* UIKit.framework */; };
 		11E7C26D22E6BDDB006B8537 /* SPUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1165FF231BD7722A00514BB2 /* SPUIHelper.m */; };
-		11E7C27322E6C27D006B8537 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E7C27222E6C27D006B8537 /* SPDevKit.framework */; };
 		11E8D9901B8436FC00798F3D /* DebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E8D98E1B8436FC00798F3D /* DebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11E8D9911B8436FC00798F3D /* DebugMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8D98F1B8436FC00798F3D /* DebugMacros.m */; };
 /* End PBXBuildFile section */
@@ -74,7 +74,8 @@
 		113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlertHelper.m; sourceTree = "<group>"; };
 		1165FF221BD7722A00514BB2 /* SPUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUIHelper.h; sourceTree = "<group>"; };
 		1165FF231BD7722A00514BB2 /* SPUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPUIHelper.m; sourceTree = "<group>"; };
-		116F199D22E845EA00678B50 /* AotterService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AotterService.framework; sourceTree = "<group>"; };
+		116F19A122E852A800678B50 /* AotterService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AotterService.framework; sourceTree = "<group>"; };
+		116F19A322E852B400678B50 /* SPDevKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SPDevKit.framework; sourceTree = "<group>"; };
 		11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTestDataHelper.h; sourceTree = "<group>"; };
 		11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTestDataHelper.m; sourceTree = "<group>"; };
 		118726B11C857A8700D06D2F /* SPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlertView.h; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		118726B51C857C6B00D06D2F /* UIBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBAlertView.h; sourceTree = "<group>"; };
 		118726B61C857C6B00D06D2F /* UIBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBAlertView.m; sourceTree = "<group>"; };
 		11E7C26B22E6B7BE006B8537 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		11E7C27222E6C27D006B8537 /* SPDevKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SPDevKit.framework; path = "Output/SPDevKit-Debug-iphoneuniversal/SPDevKit.framework"; sourceTree = SOURCE_ROOT; };
 		11E8D98E1B8436FC00798F3D /* DebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugMacros.h; sourceTree = "<group>"; };
 		11E8D98F1B8436FC00798F3D /* DebugMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugMacros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,9 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E7C27322E6C27D006B8537 /* SPDevKit.framework in Frameworks */,
 				11E7C26C22E6B7BE006B8537 /* UIKit.framework in Frameworks */,
-				116F199E22E845EA00678B50 /* AotterService.framework in Frameworks */,
+				116F19A422E852B400678B50 /* SPDevKit.framework in Frameworks */,
+				116F19A222E852A800678B50 /* AotterService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,8 +188,8 @@
 		11E7C27122E6C257006B8537 /* framework */ = {
 			isa = PBXGroup;
 			children = (
-				116F199D22E845EA00678B50 /* AotterService.framework */,
-				11E7C27222E6C27D006B8537 /* SPDevKit.framework */,
+				116F19A322E852B400678B50 /* SPDevKit.framework */,
+				116F19A122E852A800678B50 /* AotterService.framework */,
 			);
 			path = framework;
 			sourceTree = "<group>";
