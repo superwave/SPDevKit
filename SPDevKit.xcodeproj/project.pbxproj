@@ -30,13 +30,13 @@
 		113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */; };
 		1165FF241BD7722A00514BB2 /* SPUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1165FF221BD7722A00514BB2 /* SPUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		116F19B322E855B600678B50 /* AotterService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19B222E855B600678B50 /* AotterService.framework */; };
 		116F19B522E8564900678B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19B422E8564900678B50 /* Foundation.framework */; };
 		116F19B722E8564E00678B50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19B622E8564E00678B50 /* AVFoundation.framework */; };
 		116F19B922E8565100678B50 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19B822E8565100678B50 /* AVKit.framework */; };
 		116F19BB22E8565600678B50 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19BA22E8565600678B50 /* AdSupport.framework */; };
 		116F19BD22E8566000678B50 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19BC22E8566000678B50 /* CoreTelephony.framework */; };
 		116F19BF22E8566600678B50 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19BE22E8566600678B50 /* WebKit.framework */; };
+		116F19C122E8581B00678B50 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19C022E8581A00678B50 /* SPDevKit.framework */; };
 		11809ADB1C1C12DD009A40D2 /* SPTestDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11809ADC1C1C12DD009A40D2 /* SPTestDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */; };
 		118726B31C857A8700D06D2F /* SPAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 118726B11C857A8700D06D2F /* SPAlertView.h */; };
@@ -79,13 +79,13 @@
 		113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlertHelper.m; sourceTree = "<group>"; };
 		1165FF221BD7722A00514BB2 /* SPUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUIHelper.h; sourceTree = "<group>"; };
 		1165FF231BD7722A00514BB2 /* SPUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPUIHelper.m; sourceTree = "<group>"; };
-		116F19B222E855B600678B50 /* AotterService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AotterService.framework; sourceTree = "<group>"; };
 		116F19B422E8564900678B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116F19B622E8564E00678B50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		116F19B822E8565100678B50 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		116F19BA22E8565600678B50 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		116F19BC22E8566000678B50 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		116F19BE22E8566600678B50 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		116F19C022E8581A00678B50 /* SPDevKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SPDevKit.framework; path = "Output/SPDevKit-Debug-iphoneuniversal/SPDevKit.framework"; sourceTree = SOURCE_ROOT; };
 		11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTestDataHelper.h; sourceTree = "<group>"; };
 		11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTestDataHelper.m; sourceTree = "<group>"; };
 		118726B11C857A8700D06D2F /* SPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlertView.h; sourceTree = "<group>"; };
@@ -102,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116F19C122E8581B00678B50 /* SPDevKit.framework in Frameworks */,
 				116F19BF22E8566600678B50 /* WebKit.framework in Frameworks */,
 				116F19BD22E8566000678B50 /* CoreTelephony.framework in Frameworks */,
 				116F19B922E8565100678B50 /* AVKit.framework in Frameworks */,
@@ -109,7 +110,6 @@
 				116F19B722E8564E00678B50 /* AVFoundation.framework in Frameworks */,
 				116F19B522E8564900678B50 /* Foundation.framework in Frameworks */,
 				11E7C26C22E6B7BE006B8537 /* UIKit.framework in Frameworks */,
-				116F19B322E855B600678B50 /* AotterService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +209,7 @@
 		11E7C27122E6C257006B8537 /* framework */ = {
 			isa = PBXGroup;
 			children = (
-				116F19B222E855B600678B50 /* AotterService.framework */,
+				116F19C022E8581A00678B50 /* SPDevKit.framework */,
 			);
 			path = framework;
 			sourceTree = "<group>";
