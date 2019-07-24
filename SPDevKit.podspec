@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPDevKit"
-  s.version      = "0.0.15"
+  s.version      = "0.0.16"
   s.summary      = "Personal dev kit"
 
   # This description is used to generate tags and improve search results.
@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   # s.frameworks = "AFNetworking"
-  s.frameworks = "GoogleAds-IMA-iOS-SDK"
+  # s.frameworks = "GoogleAds-IMA-iOS-SDK"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -142,7 +142,7 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
   # s.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.9"
   # s.dependency "AFNetworking"
-  s.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.9"
+  # s.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.9"
 
 
 end
