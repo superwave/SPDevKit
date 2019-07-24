@@ -30,7 +30,6 @@
 		113E68001B8190CC0029C0A0 /* SPAlertHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E67FE1B8190CC0029C0A0 /* SPAlertHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113E68011B8190CC0029C0A0 /* SPAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */; };
 		1165FF241BD7722A00514BB2 /* SPUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1165FF221BD7722A00514BB2 /* SPUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		116F19A422E852B400678B50 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19A322E852B400678B50 /* SPDevKit.framework */; };
 		116F19B322E855B600678B50 /* AotterService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19B222E855B600678B50 /* AotterService.framework */; };
 		116F19B522E8564900678B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19B422E8564900678B50 /* Foundation.framework */; };
 		116F19B722E8564E00678B50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19B622E8564E00678B50 /* AVFoundation.framework */; };
@@ -80,7 +79,6 @@
 		113E67FF1B8190CC0029C0A0 /* SPAlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlertHelper.m; sourceTree = "<group>"; };
 		1165FF221BD7722A00514BB2 /* SPUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUIHelper.h; sourceTree = "<group>"; };
 		1165FF231BD7722A00514BB2 /* SPUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPUIHelper.m; sourceTree = "<group>"; };
-		116F19A322E852B400678B50 /* SPDevKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SPDevKit.framework; sourceTree = "<group>"; };
 		116F19B222E855B600678B50 /* AotterService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AotterService.framework; sourceTree = "<group>"; };
 		116F19B422E8564900678B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		116F19B622E8564E00678B50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -111,7 +109,6 @@
 				116F19B722E8564E00678B50 /* AVFoundation.framework in Frameworks */,
 				116F19B522E8564900678B50 /* Foundation.framework in Frameworks */,
 				11E7C26C22E6B7BE006B8537 /* UIKit.framework in Frameworks */,
-				116F19A422E852B400678B50 /* SPDevKit.framework in Frameworks */,
 				116F19B322E855B600678B50 /* AotterService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				116F19B222E855B600678B50 /* AotterService.framework */,
-				116F19A322E852B400678B50 /* SPDevKit.framework */,
 			);
 			path = framework;
 			sourceTree = "<group>";
