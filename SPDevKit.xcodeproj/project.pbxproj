@@ -36,7 +36,7 @@
 		116F19BB22E8565600678B50 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19BA22E8565600678B50 /* AdSupport.framework */; };
 		116F19BD22E8566000678B50 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19BC22E8566000678B50 /* CoreTelephony.framework */; };
 		116F19BF22E8566600678B50 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19BE22E8566600678B50 /* WebKit.framework */; };
-		116F19C122E8581B00678B50 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19C022E8581A00678B50 /* SPDevKit.framework */; };
+		116F19C322E8589100678B50 /* SPDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F19C222E8589100678B50 /* SPDevKit.framework */; };
 		11809ADB1C1C12DD009A40D2 /* SPTestDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11809ADC1C1C12DD009A40D2 /* SPTestDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */; };
 		118726B31C857A8700D06D2F /* SPAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 118726B11C857A8700D06D2F /* SPAlertView.h */; };
@@ -85,7 +85,7 @@
 		116F19BA22E8565600678B50 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		116F19BC22E8566000678B50 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		116F19BE22E8566600678B50 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		116F19C022E8581A00678B50 /* SPDevKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SPDevKit.framework; path = "Output/SPDevKit-Debug-iphoneuniversal/SPDevKit.framework"; sourceTree = SOURCE_ROOT; };
+		116F19C222E8589100678B50 /* SPDevKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SPDevKit.framework; sourceTree = "<group>"; };
 		11809AD91C1C12DD009A40D2 /* SPTestDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTestDataHelper.h; sourceTree = "<group>"; };
 		11809ADA1C1C12DD009A40D2 /* SPTestDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTestDataHelper.m; sourceTree = "<group>"; };
 		118726B11C857A8700D06D2F /* SPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlertView.h; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116F19C122E8581B00678B50 /* SPDevKit.framework in Frameworks */,
+				116F19C322E8589100678B50 /* SPDevKit.framework in Frameworks */,
 				116F19BF22E8566600678B50 /* WebKit.framework in Frameworks */,
 				116F19BD22E8566000678B50 /* CoreTelephony.framework in Frameworks */,
 				116F19B922E8565100678B50 /* AVKit.framework in Frameworks */,
@@ -209,7 +209,7 @@
 		11E7C27122E6C257006B8537 /* framework */ = {
 			isa = PBXGroup;
 			children = (
-				116F19C022E8581A00678B50 /* SPDevKit.framework */,
+				116F19C222E8589100678B50 /* SPDevKit.framework */,
 			);
 			path = framework;
 			sourceTree = "<group>";

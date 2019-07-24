@@ -1,0 +1,6 @@
+framework module SPDevKit {
+  umbrella header "SPDevKit.h"
+
+  export *
+  module * { export * }
+}
