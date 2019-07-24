@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPDevKit"
-  s.version      = "0.0.14"
+  s.version      = "0.0.15"
   s.summary      = "Personal dev kit"
 
   # This description is used to generate tags and improve search results.
@@ -94,6 +94,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
 
   s.vendored_frameworks = 'SPDevKit/framework/SPDevKit.framework'
+  s.vendored_frameworks = 'SPDevKit/framework/AotterService.framework'
 
 
   s.swift_version = '4.2'
